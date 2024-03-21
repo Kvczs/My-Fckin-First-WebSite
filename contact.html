@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <title>Kontakt</title>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle"/>
+        <label class="menu" for="menu-toggle"></label>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona główna</a></li>
+                <li><a href="cars.html">Oferta</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="image1">
+                <img src="img/image1.jpg" class="image1jpg" alt="">
+            </div>
+        </section>
+        <section>
+            <h1>Kontakt</h1>
+            <h2>Chcesz wynająć samochód? Skontaktuj się z nami tutaj!</h2>
+        </section>
+        <section>
+            <form>
+                <label for="name">Imię i nazwisko:</label>
+                <input type="text" name="name" required>
+                <label for="email">Adres e-mail:</label>
+                <input type="email" name="email" required>
+                <label for="subject">Temat:</label>
+                <input type="text" name="subject" required>
+                <label for="message">Wiadomość:</label>
+                <textarea class="textarea" name="message" required></textarea>
+                <input type="submit" value="Wyślij">
+              </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Wypożyczalnia Samochodów Chłodnica Górska. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
